@@ -1,0 +1,41 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* 
+style 
+*/
+
+.contents{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents button {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.contents h1 {
+    visibility: hidden;
+}
